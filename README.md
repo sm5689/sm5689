@@ -18,3 +18,21 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+# 🚀 Suraj Mishra's Portfolio
+
+👋 Welcome to my GitHub portfolio! I'm a Computer Science graduate from Northeastern University, specializing in web development, machine learning, and database management systems.
+
+## 🌟 Projects
+1. **E-commerce Website Design** - A full-stack e-commerce platform. 🛒 
+2. **Fantasy League Analyzer** - An AI-driven Flutter application for sports analytics. ⚽ 
+3. **Real-time Drowsiness Detector** - A machine learning project for road safety. 🚗 
+4. **Image Dehazing with Deep Learning** - Enhancing image clarity using AI. 🖼️ 
+5. **Employee Payroll Management System** - A Python and MySQL integrated system. 💼 
+
+## 💻 Skills
+- **Languages**: Java, C, C++, Python, JavaScript
+- **Databases**: MySQL, MongoDB
+- **Web Technologies**: HTML, CSS, PHP, React, Node.js
+
+🔍 Feel free to explore my projects and reach out via [LinkedIn](https://www.linkedin.com/in/suraj-mishra-a610b620a/).
+
