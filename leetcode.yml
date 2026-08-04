@@ -1,0 +1,30 @@
+name: LeetCode card
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Stdlib only, so there is nothing to install.
+      # On failure the step exits non-zero and the previously committed
+      # leetcode.svg stays live rather than being replaced by a broken card.
+      - name: Generate leetcode.svg
+        run: python3 gen_leetcode.py --user surajmishragemini --out leetcode.svg
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh LeetCode card"
+          file_pattern: leetcode.svg
