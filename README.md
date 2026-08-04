@@ -11,9 +11,9 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=sm5689&style=flat-square&color=58A6FF&label=PROFILE+VIEWS" alt="views"/>
-<img src="https://img.shields.io/github/followers/sm5689?style=flat-square&color=58A6FF&labelColor=0d1117" alt="followers"/>
-<img src="https://img.shields.io/badge/OPEN%20TO-SWE%20ROLES-3fb950?style=flat-square&labelColor=0d1117" alt="status"/>
+<img src="https://img.shields.io/github/followers/sm5689?style=flat-square&color=58A6FF&labelColor=0d1117&label=followers" alt="followers"/>
+<img src="https://img.shields.io/badge/M.S._CS-Northeastern-58A6FF?style=flat-square&labelColor=0d1117" alt="education"/>
+<img src="https://img.shields.io/badge/open_to-SWE_roles-3fb950?style=flat-square&labelColor=0d1117" alt="status"/>
 
 </div>
 
@@ -119,31 +119,20 @@ const suraj: Engineer = {
 | **[portfolio](https://github.com/sm5689/portfolio)** | Personal site, static-generated and edge-deployed | `Astro` `Vercel` | ships on push |
 | **[cppCodes](https://github.com/sm5689/cppCodes)** | C++ algorithm and data-structure reference | `C++` | 8 forks |
 
----
-
-## Metrics
-
 <div align="center">
+<br/>
 
-<img src="./metrics.svg" alt="GitHub metrics — activity, languages, contribution calendar" width="92%" />
+<a href="https://github.com/sm5689/portfolio"><img src="https://img.shields.io/github/last-commit/sm5689/portfolio?style=flat-square&label=portfolio&labelColor=0d1117&color=BC52EE" alt="portfolio activity"/></a>
+<a href="https://github.com/sm5689/cppCodes"><img src="https://img.shields.io/github/stars/sm5689/cppCodes?style=flat-square&label=cppCodes%20stars&labelColor=0d1117&color=58A6FF" alt="cppCodes stars"/></a>
+<a href="https://github.com/sm5689/cppCodes/network/members"><img src="https://img.shields.io/github/forks/sm5689/cppCodes?style=flat-square&label=forks&labelColor=0d1117&color=00599C" alt="cppCodes forks"/></a>
 
 </div>
 
 ---
 
-## Algorithms & DSA
-
-<div align="center">
-
-<img src="./leetcode.svg" alt="LeetCode — solved by difficulty" width="580" />
-
-</div>
+## Algorithms &amp; DSA
 
 **Interview prep in public** — Blind 75 into Neetcode 150, with written pattern notes per problem.
-
-<details>
-<summary><b>&nbsp;Pattern coverage</b></summary>
-<br/>
 
 | Pattern | Status |
 |---|---|
@@ -156,7 +145,9 @@ const suraj: Engineer = {
 | Heaps / Intervals | queued |
 | Tries &amp; Union-Find | queued |
 
-</details>
+<div align="center">
+<a href="https://leetcode.com/u/surajmishragemini/"><img src="https://img.shields.io/badge/LeetCode_profile-surajmishragemini-FFA116?style=flat-square&logo=leetcode&logoColor=black&labelColor=0d1117" alt="LeetCode profile"/></a>
+</div>
 
 ---
 
@@ -172,10 +163,6 @@ const suraj: Engineer = {
 ---
 
 <div align="center">
-
-<img src="./snake.svg" alt="Contribution snake" />
-
-<br/><br/>
 
 **Let's build something.** Open to Backend, Frontend, and Full-Stack roles.
 
