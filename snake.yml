@@ -1,0 +1,29 @@
+name: Generate contribution snake
+
+# Schedule + manual only. GITHUB_TOKEN pushes do not retrigger workflows,
+# but leaving `push` off entirely removes any chance of a commit loop.
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: snake.svg?palette=github-dark
+
+      - name: Commit snake.svg to main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate contribution snake"
+          file_pattern: snake.svg

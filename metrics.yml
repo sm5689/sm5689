@@ -1,0 +1,30 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # METRICS_TOKEN = a classic PAT with scopes: repo, read:user
+          # Settings > Developer settings > Personal access tokens > Tokens (classic)
+          # Then add it at: repo Settings > Secrets and variables > Actions
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+          template: classic
+          base: header, activity, repositories, metadata
+          config_timezone: America/Los_Angeles
+
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
